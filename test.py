@@ -29,7 +29,7 @@ plt.style.use('ggplot')
 plt.rcParams['font.size'] = 12
 plt.rcParams['figure.figsize'] = (12, 8)
 
-# Plotting the distribution of video games by platform
+# Plotting the distribution of video games by platforms
 
 plt.subplot(3,3,1)
 sns.histplot(vs, x='Platform', hue='Country',multiple='stack', alpha=0.7 , bins=30,discrete=True)
