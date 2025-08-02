@@ -60,7 +60,7 @@ plt.tight_layout()
 # Plotting the top 5 video games by global sales
 
 plt.subplot(3,3,4)
-plt.bar(top5salesname, top5Salesmoney, color='orange')
+sns.barplot(x=top5salesname, y=top5Salesmoney, palette='viridis')
 plt.title('Top 5 Video Games by Global Sales')
 plt.xlabel('Game Name')
 plt.ylabel('Global Sales (in millions)')
