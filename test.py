@@ -32,7 +32,7 @@ plt.rcParams['figure.figsize'] = (12, 8)
 # Plotting the distribution of video games by platform
 
 plt.subplot(3,3,1)
-sns.histplot(vs, x='Platform', hue='Country',multiple='stack', alpha=0.5, discrete=True)
+sns.histplot(vs, x='Platform', hue='Country',multiple='dodge', alpha=0.7)
 plt.title('Number of Video Games by Platform')
 plt.xlabel('Platform')
 plt.ylabel('Number of Games')
