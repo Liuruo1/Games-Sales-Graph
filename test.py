@@ -1,9 +1,9 @@
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns   
-from sklearn.linear_model import LinearRegression
-import streamlit as st
+import pandas as pd # type: ignore
+import numpy as np # type: ignore
+import matplotlib.pyplot as plt # type: ignore
+import seaborn as sns    # type: ignore
+from sklearn.linear_model import LinearRegression # type: ignore
+import streamlit as st # type: ignore
 
 
 vs=pd.read_csv('vgsales.csv')
