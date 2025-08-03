@@ -86,7 +86,7 @@ plt.tight_layout()
 # Plotting the distribution of video game sales by region
 
 ax = plt.subplot(3, 3, 6)
-sns.barplot(data=vs, x='Country', y='Global_Sales', hue='Genre', alpha=0.7, ax=ax, ci=None)
+sns.barplot(data=vs, x='Country', y='Global_Sales', hue='Genre', alpha=0.5, ax=ax, ci=None)
 ax.set_title('Video Game Sales by Region and Genre')
 ax.set_xlabel('Country')
 ax.set_ylabel('Global Sales (in millions)')
