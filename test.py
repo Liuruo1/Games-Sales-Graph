@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns   
 from sklearn.linear_model import LinearRegression
+import streamlit as st
 
 
 vs=pd.read_csv('vgsales.csv')
@@ -128,5 +129,6 @@ else:
 
 # Saving the figure
 
+
+st.pyplot(plt)
 plt.savefig('video_game_sales_analysis.png', dpi=300)
-plt.show()
