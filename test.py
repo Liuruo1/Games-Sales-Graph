@@ -22,7 +22,7 @@ top5Salesmoney=top5Sales.head(5)['Global_Sales'].values
 
 # Setting up the figure and subplots
 
-plt.figure(figsize=(18, 15))
+plt.figure(figsize=(19, 15))
 plt.suptitle('Video Game Sales Analysis', fontsize=16)
 plt.subplots_adjust(hspace=0.4, wspace=0.4)
 plt.style.use('ggplot')
