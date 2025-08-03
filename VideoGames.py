@@ -132,4 +132,5 @@ else:
 
 
 plt.savefig('video_game_sales_analysis.png', dpi=300)
+
 st.pyplot(plt)

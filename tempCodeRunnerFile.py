@@ -1,1 +1,1 @@
-discrete=True
+st.pyplot(plt)
