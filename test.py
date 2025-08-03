@@ -43,7 +43,14 @@ plt.tight_layout()
 # Plotting the distribution of video game sales by genre
 
 plt.subplot(3,3,2)
-plt.pie(vs['Genre'].value_counts(), labels=vs['Genre'].unique(), autopct='%1.1f%%', startangle=70)
+plt.pie(
+    vs['Genre'].value_counts(),
+    labels=vs['Genre'].unique(),
+    autopct='%1.1f%%',
+    startangle=70,
+    pctdistance=0.85,      # Move percentage labels outwards
+    labeldistance=1.1      # Move genre labels outwards
+)
 plt.axis('equal')  # Equal aspect ratio ensures that pie chart is circular.
 plt.tight_layout()
 
