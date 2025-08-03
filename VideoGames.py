@@ -8,7 +8,7 @@ import streamlit as st # type: ignore
 
 vs=pd.read_csv('vgsales.csv')
 
-st.title("Videogamest")
+st.title("Video Game Sales Analysis")
 
 
 GamesCount=pd.DataFrame(vs['Year'].value_counts(ascending=True))
